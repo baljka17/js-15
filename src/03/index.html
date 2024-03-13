@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="bg-blue-100">
+    <main class="h-screen flex justify-center items-center">
+      <section class="container w-[40vw] max-w-[400px] text-center space-y-10">
+        <div class="title relative">
+          <h2 class="text-2xl font-semibold tracking-wide">Our Reviews</h2>
+          <div
+            class="bg-sky-500 w-[80px] h-[4px] absolute -bottom-2 left-1/2 -translate-x-1/2"
+          ></div>
+        </div>
+        <article class="review bg-white p-12 rounded-lg shadow-2xl space-y-2">
+          <div
+            id="img-container"
+            class="img-container relative w-[160px] mx-auto"
+          >
+            <div
+              id="person-img"
+              alt="Person"
+              class="w-[160px] h-[160px] rounded-full bg-sky-300 absolute left-[8px] -top-[4px] z-0"
+            ></div>
+            <img
+              src=""
+              id="person-img"
+              alt="Person"
+              class="w-[160px] h-[160px] rounded-full bg-sky-700 mx-auto z-10 relative"
+            />
+          </div>
+          <h4 id="author" class="font-semibold text-[1.2rem]">Sara Jones</h4>
+          <p id="job" class="text-sky-500">UX desinger</p>
+          <p id="info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ducimus
+            velit earum. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+          </p>
+          <div class="button-container">
+            <button class="bg-sky-500 px-2 py-1 rounded-md text-white prev">
+              <
+            </button>
+            <button class="bg-sky-500 px-2 py-1 rounded-md text-white random">
+              surprise
+            </button>
+            <button class="bg-sky-500 px-2 py-1 rounded-md text-white next">
+              >
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
